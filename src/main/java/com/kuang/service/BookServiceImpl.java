@@ -20,6 +20,7 @@ public class BookServiceImpl implements BookService {
 
     public void setBookMapper(BookMapper bookMapper) {
         System.out.println("-----------");
+        System.out.print("hello test");
         this.bookMapper = bookMapper;
     }
 
